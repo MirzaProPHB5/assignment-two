@@ -111,13 +111,9 @@ p{
     position: absolute;
     height: 24px;
     left: 1044px;
-    top: 2600px;
+    top: 2550px;
 }
- 
-/*--------
- footer
- ------- */
-
+/*--------footer------- */
 footer{
     font-family: 'Poppins', sans-serif;
     margin: 100px 0px 0px 0px;
@@ -161,5 +157,46 @@ footer p{
     color: lightgray;
 }
 
+/* media queries */
 
- 
+/* mobile devices */
+@media only screen and (max-width: 480px) {
+    header, main{
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+        nav {
+            font-size: 20px;
+            justify-content: center;
+         }
+         nav a {
+            display: none;
+         }  
+         .influencer{
+            flex-direction: column-reverse;
+         } 
+         .half img{ 
+             margin-right: 50px;
+         }
+         .half{
+             justify-content: center;
+             margin-left: 70px;
+         }
+         .section-title{
+             font-size: 30px;
+             justify-content: center;
+         }
+         .product-list{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 5px;
+            margin-left: 50px;
+
+         }
+
+
+    
+    }
