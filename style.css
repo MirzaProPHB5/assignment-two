@@ -210,5 +210,58 @@ footer p{
             width: 380px;
         }
     }
+       /* tablet devices */
+       @media only screen and (min-width:481px) and (max-width:768px) {
+        header, main{
+            font-family: 'Poppins', sans-serif;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 30px;
+        }
+        nav{
+            justify-content: center;
+            font-size: 30px;
+        }
+        nav a{
+            display: none;
+        }
+        .influencer{
+            flex-direction: column-reverse;
+         } 
+         .half img{ 
+             margin-right: 50px;
+         }
+         .half{
+             justify-content: center;
+             margin-left: 70px;
+         }
+         .section-title{
+             font-size: 30px;
+             justify-content: center;
+         }
+         .product-list{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 5px;
+            margin-left: 50px;
+         }
+         #seemore{
+            color: rgb(219, 8, 89); 
+            text-decoration: none;
+            margin-right: 300px;
+            font-size: 20px;
+            top: 300px;
+        }
+        .box-anime {
+            background-color: rgb(242, 248, 247);
+            border-radius: 25px;
+            margin-top: 10px;
+            height: 10px;
+            width: 380px;
+        }
+
+
+    }
 
  
